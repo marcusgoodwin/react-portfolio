@@ -1,0 +1,14 @@
+@import 'animate.css';
+
+$primary-color: rgb(151, 233, 207);
+$background-color: #212121;
+
+@font-face{
+    font-family:'Neusa';
+    src: url('./assets/fonts/Neusa-font.7z') format('7z');
+}
+
+input,
+textarea {
+    font-family: 'Neusa';
+};

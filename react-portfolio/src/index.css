@@ -1,0 +1,15 @@
+
+html{
+  font-size: 69%;
+}
+
+body {
+  margin: 0;
+  font-family: 275 12px/1.7 'Neusa', 'sans-serif';
+    color: rgb(151, 233, 207);
+    background-color: #212121;
+    overflow: hidden;
+    display: block;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}

@@ -1,0 +1,26 @@
+nav-bar {
+    background: #212121;
+    width: 45px;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    z-index: 3;
+    min-height: 450px;
+};
+
+.logo {
+    display: block;
+    padding: 9px 0;
+
+    img{
+        display: block;
+        margin: 9px auto;
+        width: 24px;
+        height: auto;
+    };
+};
+
+    nav {
+        display: block;
+        text-align: center;
+    }
