@@ -1,26 +1,48 @@
 nav-bar {
-    background: #212121;
-    width: 45px;
-    height: 100%;
-    position: absolute;
-    top: 0;
-    z-index: 3;
-    min-height: 450px;
-};
+  background: #181818;
+  width: 45px;
+  height: 60px;
+  position: absolute;
+  top: 0;
+  z-index: 3;
+  min-height: 60px;
+}
 
 .logo {
+  display: block;
+  display: flex;
+  padding-top: 7px;
+  font-size: 80px;
+  align-items: center;
+  justify-content: center;
+
+  img {
     display: block;
-    padding: 9px 0;
+    margin: 9px auto;
+    width: 220px;
+    height: auto;
+  }
+}
 
-    img{
-        display: block;
-        margin: 9px auto;
-        width: 24px;
-        height: auto;
-    };
-};
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  height: 60px;
+  width: 100%;
 
-    nav {
-        display: block;
-        text-align: center;
-    }
+  a {
+    font-size: 20px;
+    padding: 5px;
+    color: #008080;
+    display: block;
+    line-height: 45px;
+    height: 45px;
+    position: relative;
+  }
+}
+
+// body {
+//   background: url(../../assets/images/night.gif) no-repeat center center fixed;
+//   background-size: cover;
+// }
