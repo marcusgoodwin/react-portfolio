@@ -32,14 +32,32 @@ nav {
   width: 100%;
 
   a {
-    font-size: 20px;
+    font-size: 45px;
     padding: 5px;
     color: #008080;
     display: block;
-    line-height: 45px;
+    line-height: 30px;
     height: 45px;
     position: relative;
   }
+}
+
+h2{
+  display: block;
+  display: flex;
+  padding-top: 7px;
+  font-size: 30px;
+  align-items: center;
+  justify-content: center;
+}
+
+h1{
+  display: block;
+  display: flex;
+  padding-top: 7px;
+  font-size: 30px;
+  align-items: center;
+  justify-content: center;
 }
 
 // body {

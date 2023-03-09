@@ -5,8 +5,20 @@ const About = () => {
     return (
         <div className="container about">
             <div className='text'>
-                <h1>I'm a junior developer, and I just finished a bootcamp at the University of Utah! I'm very excited to be in the field, and I'm even more excited to further my knowledge!</h1>
-                <h2>I have a few hobbies, but anything computer related, be it software or hardware, is what I love to do most!  I have to great dogs, a loving girl friend, and a few tattoos!</h2>
+                <div className='title'>
+                <p>I'm a junior developer, and I just finished a boot camp at the University of Utah!</p>
+                </div>
+                <ul>I have a few hobbies, but here are a few! 
+                    <li>
+                    Anything computer related, is super interesting to me, be it software or hardware, is what I love to do most!
+                    </li>
+                    <li>
+                    I have two great dogs, and I always enjoy hanging out with them! One of the is Kaneki, and he is half Saint Bernard, half German Shepherd! The other's name is Ryo, and he is half Australian Shepherd, 30% Golden Retriever, and 20% Border Collie!
+                    </li>
+                    <li>
+                    I also love hanging out with my girl friend, and we enjoy watching anime, and going on trips!
+                    </li>
+                    </ul>
             </div>
         </div>
     )
