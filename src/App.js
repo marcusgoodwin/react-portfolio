@@ -10,11 +10,11 @@ function App() {
   return (
     <>
       <Routes>
-        <Route path="/" element={<Layout />}>
+        <Route path="/react-portfolio" element={<Layout />}>
           <Route index element={<About />} />
-          <Route path="/projects" element={<Projects />} />
-          <Route path="/contact" element={<Contact />} />
-          <Route path="/resume" element={<Resume />} />
+          <Route path="/react-portfolio/projects" element={<Projects />} />
+          <Route path="/react-portfolio/contact" element={<Contact />} />
+          <Route path="/react-portfolio/resume" element={<Resume />} />
         </Route>
       </Routes>
     </>
