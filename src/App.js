@@ -1,10 +1,10 @@
-import Layout from "../react-portfolio/src/component/Layout";
+import Layout from "./component/Layout/index";
 import "./App.scss";
 import { Routes, Route } from "react-router-dom";
-import Resume from "../react-portfolio/src/component/Resume/index.js";
-import About from "../react-portfolio/src/component/About/index.js";
-import Contact from "../react-portfolio/src/component/Contact/index.js";
-import Projects from "../react-portfolio/src/component/Projects/index.js";
+import Resume from "./component/Resume/index";
+import About from "./component/About/index";
+import Contact from "./component/Contact/index";
+import Projects from "./component/Projects/index";
 
 function App() {
   return (

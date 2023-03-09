@@ -1,6 +1,4 @@
-// import { Link } from "react-router-dom";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-// import Bg from '../../assets/images/night.gif'
 import {faServer} from '@fortawesome/free-solid-svg-icons'
 
 const Resume = () => {
