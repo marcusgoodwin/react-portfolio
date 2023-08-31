@@ -10,27 +10,36 @@ import {
 const Projects = () => {
   return (
     <body>
-      <div className="container projects">
+      <div className="container-projects">
         <div className="text">
-          <h1>Welcome to my Projects Page!</h1>
+          <h2>Welcome to my Projects Page!</h2>
+          <div>
           <h2>
-            PokeQuiz
             <a href="https://github.com/Jacob-Aston/buuzz-quiz">
+            PokeQuiz
               <FontAwesomeIcon icon={faQuestion} color="rgb(151, 233, 207)" />
             </a>
-          </h2>
+            </h2>
+            <p>I primarily worked on the back end portion of this project. I wrote the script for the quiz functionality, and the script that pushed the results to the api's we used!</p>
+          </div>
+          <div>
           <h2>
             Promptlio
-            <a href="https://promptlio.herokuapp.com/">
+            <a href="https://github.com/lbako801/Promptlio">
               <FontAwesomeIcon icon={faPencil} color="rgb(151, 233, 207)" />
             </a>
-          </h2>
+            </h2>
+            <p>I did a fair amount of the frontend for this project!</p>
+            </div>
+            <div>
           <h2>
-            CashFlow
-            <a href="https://cashflow.herokuapp.com/">
+           W.I.P.
+            <a href="https://github.com/marcusgoodwin/finance-refresh">
               <FontAwesomeIcon icon={faDollar} color="rgb(151, 233, 207)" />
             </a>
-          </h2>
+            </h2>
+            <p>This is what I'm currently working on!</p>
+          </div>
           <div className="product"></div>
         </div>
       </div>

@@ -1,5 +1,25 @@
 h1{
     font-size: 68px;
     margin: 0;
-    justify-content: center;
+    display: flex;
+    justify-content: space-around;
 }
+
+
+h2{
+    display: flex;
+    justify-content: space-around;
+    font-size: 48px;
+    margin-top: 15vh;
+  }
+p{
+    display: flex;
+    justify-content: space-around;
+    font-size: 24px;
+    margin: 25px;
+  }
+a{
+    display: flex;
+    justify-content: space-around;
+}
+
