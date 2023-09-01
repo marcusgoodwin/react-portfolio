@@ -14,7 +14,7 @@ import {
 const SideBar = () => (
   <body>
   <div className="nav">
-  <h2>Full-Stack Developer</h2>
+  <h1>Full-Stack Developer</h1>
     <div className="logo">
     <NavLink exact="true" to="/react-portfolio">
         <FontAwesomeIcon icon={faM} color="rgb(151, 233, 207)" />

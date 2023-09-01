@@ -1,17 +1,12 @@
-.home {
 
     .text{
         position: absolute;
     }
 
-    h1{
-        font-size: 30px;
-        margin: 0;
+    p{
+        display: flex;
+        flex-direction: column;
+        font-size: 30vh;
+        margin-top: 30vh;
         justify-content: center;
     }
-}
-
-body {
-    background: url(../../assets/images/night.gif) no-repeat center center fixed;
-    background-size: cover;
-  }
