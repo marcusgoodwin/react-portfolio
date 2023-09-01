@@ -1,0 +1,27 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+  }
+ 
+  .text {
+    text-align: center;
+  }
+  
+  .text .resume {
+    font-size: 48px;
+    color: rgb(151, 233, 207);
+    line-height: 1.5;
+    margin-top: 20vh;
+  }
+  
+  .text a {
+    text-decoration: none;
+    color: rgb(151, 233, 207);
+  }
+  
+  /* FontAwesome icon */
+  .text a .fa-server {
+    font-size: 48px;
+    margin-left: 10px;
+  }

@@ -1,4 +1,4 @@
-import './index.scss'
+import './project.scss'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 // import Bg from '../../assets/images/night.gif'
 import {

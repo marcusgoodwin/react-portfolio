@@ -1,32 +1,27 @@
-import './index.scss'
+import './about.scss'
 
 const About = () => {
 
     return (
-        <div className="container about">
-            <div className='title'>
-                <p>I'm a junior developer, and I just finished a boot camp at the University of Utah! Here are a few things about me!</p>
-                </div>
             <div className='text'>
                 <ul>
                     <li>
-                     <p> Anything computer related, is super interesting to me, be it software or hardware, it is what I love to do most!</p>
+                     <p> Freshly minted from the University of Utah's coding crucible, I'm a junior developer ready to conquer the tech realm!</p>
                     </li>
                     <li>
-                     <p> I have two great dogs, and I always enjoy hanging out with them! One of the is Kaneki, and the other's name is Ryo.</p>
+                     <p> When I'm not coding, I'm on adventures with my dynamic duo: Kaneki and Ryo—my dogs, my companions, my chaos commanders!</p>
                     </li>
                     <li>
-                    <p> I also love hanging out with my girlfriend, and we enjoy watching anime, and going on trips! </p>
+                    <p> My life's co-star is my awesome girlfriend—we're wanderlusters with a penchant for anime binging and a soundtrack of giggles. </p>
                     </li>
                     <li>
-                    <p> I love music, and I listen to podcasts in my spare time. </p>
+                    <p> Beyond the code, I'm plugged into podcasts—learning, laughing, and harmonizing with knowledge and melodies. </p>
                     </li>
                     <li>
-                    <p> I love to try new things, and I'm always open to new challenges. </p>
+                    <p> Challenge? I say bring it on! I thrive on new horizons, complexities, and puzzles—keeping the innovation flame alive. </p>
                     </li>
                 </ul>
             </div>
-        </div>
     )
 
 }
