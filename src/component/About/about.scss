@@ -1,0 +1,92 @@
+nav-bar {
+  background: #181818;
+  width: 45px;
+  height: 60px;
+  position: absolute;
+  top: 0;
+  z-index: 3;
+  min-height: 60px;
+}
+
+.logo {
+  display: flex;
+  padding-top: 7px;
+  font-size: 80px;
+  align-items: center;
+  justify-content: center;
+}
+
+.logo img {
+  margin: 9px auto;
+  width: 220px;
+  height: auto;
+}
+
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  height: 60px;
+  width: 100%;
+  font-size: 15px;
+}
+
+a {
+  font-size: 20px;
+  padding: 5px;
+  color: #008080;
+  display: block;
+  line-height: 45px;
+  height: 45px;
+  position: relative;
+}
+
+h1 {
+  margin-top: 24px;
+  font-size: 20px;
+}
+
+.text {
+  display: flex;
+  justify-content: center;
+  font-size: 36px;
+  margin: 25px;
+}
+
+ul {
+  display: block;
+  justify-content: center;
+  font-size: 32px;
+  margin: 11px;
+}
+
+p {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 18px;
+  margin: 25px;
+}
+
+.title {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 18px;
+  margin: 25px;
+}
+
+li {
+  list-style: none;
+  display: block;
+  justify-content: center;
+  font-size: 36px;
+  margin-top: 7vh;
+}
+.container-about {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 18px;
+  margin: 25px;
+}
