@@ -7,7 +7,7 @@ This is my revamped portfolio using React!
 npm i npm run develop in the root
 
 ## Usage
-I would use this to send to futre employers!
+I would use this to send to future employers!
 
 ## Credits
 N/A
